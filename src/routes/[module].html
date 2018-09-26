@@ -27,7 +27,11 @@ export default {
   async preload({ params, query }) {
     // the `slug` parameter is available because
     // this file is called [slug].html
-    const res = await this.fetch(`http://localhost:3024/${params.module}`);
+    const host = process.env.NODE_ENV === 'production' ?
+      'https://api.d12.tech' :
+      'http://localhost:3024';
+
+    const res = await this.fetch(`${host}/${params.module}`);
     const docs = await res.json();
 
     if (res.status === 200) {
