@@ -1,5 +1,7 @@
 # sapper-template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/d12.tech.svg)](https://greenkeeper.io/)
+
 The default [Sapper](https://github.com/sveltejs/sapper) template. To clone it and get started:
 
 ```bash
