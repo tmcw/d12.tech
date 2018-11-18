@@ -1,10 +1,4 @@
 {
   "name": "d12",
-  "alias": "d12.tech",
-  "scale": {
-    "sfo1": {
-      "min": 1,
-      "max": "auto"
-    }
-  }
+  "alias": "d12.tech"
 }
