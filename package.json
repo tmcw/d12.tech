@@ -14,7 +14,7 @@
   "dependencies": {
     "compression": "^1.7.1",
     "markdown-it": "^8.4.2",
-    "sapper": "^0.21.0",
+    "sapper": "^0.24.1",
     "sirv": "^0.2.0"
   },
   "devDependencies": {
